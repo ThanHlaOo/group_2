@@ -1,0 +1,129 @@
+.nav {
+    padding: 20px;
+    background-color: #fdfdfd;
+}
+.nav h1 {
+    font-size: 24px;
+}
+
+.aside {
+    float: left;
+    width: 20%;
+    background-color: #fdfdfd;
+}
+
+.content {
+    float: right;
+    width: 72%;
+    padding: 50px;
+}
+.menu {
+    padding: 20px;
+}
+.menu-ttl span {
+    padding: 10px !important;
+    color: #212121 !important;
+    font-size: 18px;
+    font-weight: 900;
+}
+.menu li {
+    display: block;
+    list-style: none;
+    margin: 20px 0;
+    color: #3d5af1;
+    background-color: #fff;
+}
+.menu ul {
+    position: static;
+    display: none;
+}
+.menu ul.show {
+    display: block;
+}
+.menu ul li {
+    margin-top: 3px;
+    padding: 10px 0;
+}
+.menu ul li a {
+    padding-left:30px;
+}
+
+.menu li i {
+    display: inline-block;
+    width: 25%;
+    text-align: right;
+    transition: 0.8s;
+}
+
+.menu li span {
+    padding-left: 30px;
+}
+
+ a.nav-active {
+    background-color: #303a52;
+    color: #fff;
+}
+
+.menu .nav-active:hover {
+    background-color: #b3dbdb;
+    color: #464646;
+}
+
+.menu a {
+    display: block;
+    border-radius: 18px;
+    padding: 15px 0;
+    
+}
+
+.menu a:hover {
+    background-color: #303a52;
+    color: #fff;
+}
+
+.btn {
+    width: 60px;
+    background-color: #212121;
+    color: #fdfdfd;
+    padding: 10px 15px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+.btn span {
+    padding-left: 7px;
+}
+.btn:hover {
+    background-color: #fdfdfd;
+    color: #212121;
+    border: 1px solid #212121;
+}
+
+.btn-back {
+    float: left;
+}
+.btn-add {
+    float: right;
+}
+.btn-edit {
+    background-color: #facf5a; 
+    margin-left: 15px;
+}
+.btn-delete {
+    background-color: #ff5959;
+}
+.form-ttl {
+    font-size: 32px;
+    font-weight: 900;
+    margin: 20px;
+}
+table {
+    width: 900px;
+}
+td.action {
+    display: flex;
+    justify-content: space-evenly;
+}
+td {
+    padding: 20px 20px;
+    text-align: center;
+}

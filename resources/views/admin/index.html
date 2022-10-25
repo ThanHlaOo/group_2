@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/admin/hnin.css">
+  <link rel="stylesheet" href="css/fontawe/fontawesome-free-6.2.0-web/css/all.min.css">
+
+</head>
+<body>
+  <h1 class="dash-title">Dashboard</h1>
+  <ul class="dash-list clearfix">
+    <li>
+      <div class="dash-box clearfix">
+        <i class="fa-solid fa-terminal"></i>
+        <div>
+          <p>Language</p>
+          <p>23445</p>
+        </div>
+      </div>
+      <!--/.dash-box-->
+    </li>
+    <li>
+      <div class="dash-box clearfix">
+        <i class="fa-solid fa-person-chalkboard"></i>
+        <div>
+          <p>Courses</p>
+          <p>23445</p>
+        </div>
+      </div>
+      <!--/.dash-box-->
+    </li>
+    <li>
+      <div class="dash-box clearfix">
+        <i class="fa-solid fa-user"></i>
+        <div>
+          <p>User</p>
+          <p>23445</p>
+        </div>
+      </div>
+      <!--/.dash-box-->
+    </li>
+  </ul>
+  <!--/.dash-list-->
+  
+  <div class="dash-chart">
+    <h2>Chart</h2>
+    <canvas id="myChart"></canvas>
+  </div>
+  <!--/.dash-chart-->
+
+  <div class="sign-box">
+    <h1 class="sign-title">SIGN UP</h1>
+    <form action="" class="sign-form">
+      <div class="conmon-req pro-name">
+        <input type="text" placeholder="UserName" required name="name">
+        <i class="fa-solid fa-user"></i>
+      </div>
+      <div class="conmon-req pro-email">
+        <input type="email" placeholder="Email" required name="email">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      <div class="conmon-req pro-pass">
+        <input type="password" placeholder="Password" required name="password">
+        <i class="fa-solid fa-lock"></i>
+      </div>
+      <div class="conmon-req pro-image">
+        <input type="file" placeholder="Image" required name="image">
+        <i class="fa-regular fa-image"></i>
+      </div>
+      <div class="conmon-req pro-add">
+        <textarea placeholder="Address" required name="address"></textarea>
+      </div>
+      <a href="#">Forgot Password?</a><br>
+      <input type="submit" value="Login" class="pro-submit">
+    </form>
+  </div>
+  <script src="js/node_modules/chart.js/dist/chart.min.js"></script>
+  <script src="js/dash-chart.js"></script>
+</body>
+
+</html>
